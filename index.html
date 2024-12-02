@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Rubik:wght@300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+      <div class="score-container">
+        <h4>Your Result</h4>
+        <div class="score-circle">
+          <div class="score" id="scorefinal"></div>  
+          <div class="score-outof">of 100</div>
+        </div>
+
+        <div class="remark">Great</div>
+        
+        <div class="comparison">
+          You scored higher than 65% of the people who have taken these tests.
+        </div>
+        
+      </div>
+      <div class="summary">
+        <h4 style="color: hsl(224, 30%, 27%); margin-top: 14%; ">Summary</h4>
+
+        <div class="summary-container" style="background-color: hsl(0, 48%, 95%);">
+          <img class="icon" src="./assets/images/icon-reaction.svg"></img>
+          <div class="summary-container-type" style="color: hsl(0, 100%, 67%);">Reaction</div>
+          <div class="summary-container-score"></div><div class="outof">&nbsp; / 100</div>
+        </div>
+
+        <div class="summary-container" style="background-color: hsl(37, 47%, 91%);">
+          <img class="icon" src="./assets/images/icon-memory.svg"></img>
+          <div class="summary-container-type" style="color: hsl(39, 100%, 56%)">Memory</div>
+          <div class="summary-container-score"></div><div class="outof"> &nbsp;/ 100</div>
+        </div>
+
+        <div class="summary-container" style="background-color: hsl(165, 63%, 93%);">
+          <img class="icon" src="./assets/images/icon-verbal.svg"></img>
+          <div class="summary-container-type" style="color: hsl(166, 100%, 37%)">Verbal</div>
+          <div class="summary-container-score"></div><div class="outof"> &nbsp;/ 100</div>
+        </div>
+
+        <div class="summary-container" style="background-color: hsl(234, 60%, 93%);">
+          <img class="icon" src="./assets/images/icon-visual.svg"></img>
+          <div class="summary-container-type" style="color: hsl(234, 85%, 45%);">Visual</div>
+          <div class="summary-container-score"></div><div class="outof"> &nbsp;/ 100</div>
+        </div>
+        
+        <button class="continue">Continue</button>
+
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
