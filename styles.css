@@ -157,3 +157,7 @@ h4 {
     font-size: 18px;
     font-weight: 700;
 }
+
+.continue:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
